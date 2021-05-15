@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A nice greeter",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -15,7 +16,7 @@
     "version" : "npm run format && git add -A src",
     "postversion" : "git push && git push --tags"
   },
-  "author": "",
+  "author": "XGen Team",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
@@ -28,5 +29,6 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "keywords": ["Hello", "Greeter"],
 }
