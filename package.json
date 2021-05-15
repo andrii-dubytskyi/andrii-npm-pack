@@ -1,5 +1,5 @@
 {
-  "name": "@xgt/andrii-npm-pack",
+  "name": "@xgenteam/andrii-npm-pack",
   "version": "1.0.0",
   "description": "A nice greeter",
   "main": "lib/index.js",
@@ -9,12 +9,11 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "author": "XGen Team",
   "license": "ISC",
@@ -30,5 +29,11 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["Hello", "Greeter"]
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
+  "dependencies": {
+    "yargs": "^15.4.1"
+  }
 }
