@@ -30,5 +30,5 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["Hello", "Greeter"],
+  "keywords": ["Hello", "Greeter"]
 }
