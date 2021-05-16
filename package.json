@@ -30,7 +30,7 @@
     "lib/**/*"
   ],
   "bin": {
-    "andrii": "bin/andrii"
+    "andrii": "./bin/andrii"
   },
   "keywords": [
     "Hello",
