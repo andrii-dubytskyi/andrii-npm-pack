@@ -30,7 +30,7 @@
     "lib/**/*"
   ],
   "bin": {
-    "andrii": "lib/src/index.js"
+    "andrii": "./lib/src/index.js"
   },
   "keywords": [
     "Hello",
