@@ -29,6 +29,9 @@
   "files": [
     "lib/**/*"
   ],
+  "bin": {
+    "andrii": "lib/src/index.js"
+  },
   "keywords": [
     "Hello",
     "Greeter"
