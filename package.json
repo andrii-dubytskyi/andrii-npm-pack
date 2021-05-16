@@ -1,6 +1,6 @@
 {
   "name": "@xgenteam/andrii-npm-pack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,7 +30,7 @@
     "lib/**/*"
   ],
   "bin": {
-    "andrii": "./lib/src/index.js"
+    "andrii": "lib/src/index.js"
   },
   "keywords": [
     "Hello",
